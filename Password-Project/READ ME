@@ -1,0 +1,1 @@
+a Password system of 6 characters, that are saved in the Atmega32 EEPROM and then checked everytime, also the password can be reset
