@@ -1,0 +1,5 @@
+Automated light system that turn on and off light according to a sensor motion that's simulated through 2 push buttons;
+one is used to increase numbers of people and the other is used to decrease the number.
+The 2 push buttons are sampled every 100 ms through timer0 and the space between the 2 buttons signals is 500 ms.
+A fast pulse width modulation is used through timer 2 to adapt the light intensity.
+also timer1 as every 50 ms, the duty cycle is updated.
