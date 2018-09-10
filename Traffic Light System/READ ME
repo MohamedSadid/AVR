@@ -1,0 +1,2 @@
+3 LEDs simulating the red, yellow and green traffic lights, they switch consecutively with only Timer0 in AVR,
+also an external interrupt through a push button is used to switch to the green light directly.
