@@ -1,0 +1,4 @@
+A Simple Task using the UART peripheral of the atmega32, through 2 controller; one acts as a transmitter
+and the second as a reciever. using baud rate 9600 bps with a frequency 8MHz where the transmitter sends 'YES'
+to the reciever that revieves the data in the UDR and displays it on an LCD and toggles a led indicating that
+the transmission finished.
