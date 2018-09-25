@@ -1,0 +1,5 @@
+Using SPI protocol through Atmega32 with Temperature sensor TC72 that supports SPI protocol,
+the control register of register of address (0x80) in the TC72 >> continous conversion (0x00)
+then read the data from the high byte register of address (0x02)
+Send 0xFF to push the data from the sensor to be received to the SPDR data register in the controller
+at the end, display the result to PORTC through Blue LEDS
